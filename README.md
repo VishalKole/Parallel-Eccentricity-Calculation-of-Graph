@@ -1,2 +1,5 @@
-# Parallel-Eccentricity-Calculation-of-Graph
-This project computes Eccentricity of a Graph using parallel cluster programming using Parallel java
+# Parallel-Graph-Metric-Computation
+
+A graph consists of a set of vertices and a set of edges. The number of vertices is **V**. The number of edges is **E**. Each edge connects a pair of vertices. The distance between two vertices is the length of the shortest path between those two vertices—that is, the number of edges in this shortest path. If there is no path between the two vertices, the distance between them is infinity. The **eccentricity** of a vertex is the largest distance between that vertex and any other vertex. The **radius** of a graph is the smallest eccentricity of any vertex in the graph. The **diameter** of a graph is the largest eccentricity of any vertex in the graph. A **central vertex** in a graph is a vertex whose eccentricity is equal to the graph's radius. A **peripheral vertex** in a graph is a vertex whose eccentricity is equal to the graph's diameter. 
+
+For example, here is a graph with 10 vertices and 12 edges:
